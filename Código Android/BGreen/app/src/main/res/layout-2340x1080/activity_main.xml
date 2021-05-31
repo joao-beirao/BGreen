@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/verdeEscuro"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/verdeClaro"
+        android:text="Refresh"
+        android:textColor="@color/verdeEscuro"
+        android:textSize="26dp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="@color/laranjaClaro">
+
+        <TextView
+            android:id="@+id/temperatura"
+            android:textAlignment="textEnd"
+            android:layout_width="200dp"
+            android:layout_height="80sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/labelTemperatura"
+            android:text="@string/Temp"
+            android:textColor="@color/preto"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="110dp"
+            android:text="Ventilação"
+            android:textAlignment="textStart"
+            android:textColor="@color/cinza"
+            android:textSize="34sp" />
+
+
+
+        <ImageView
+            android:id="@+id/tempView"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/tempicon_foreground" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="192dp"
+        android:background="@color/azulClaro">
+
+        <TextView
+            android:id="@+id/labelHumidade"
+            android:textAlignment="textEnd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Humidade"
+            android:textColor="@color/cinza"
+            android:textSize="27sp"/>
+
+        <TextView
+            android:id="@+id/humidade"
+            android:textAlignment="viewEnd"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/labelHumidade"
+            android:text="@string/Hum"
+            android:textColor="@color/preto"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="130dp"
+            android:backgroundTint="@color/branco"
+            android:text="Rega"
+            android:textColor="@color/cinza"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/humView"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/aguaicon_foreground" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="384dp"
+        android:background="@color/amareloClaro">
+
+
+        <Switch
+            android:id="@+id/switchIluminacao"
+            android:textAlignment="viewEnd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="130dp"
+            android:text="Iluminacao"
+            android:textColor="@color/cinza"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/luminosidade"
+            android:textAlignment="viewEnd"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/labelLuminosidade"
+            android:text="@string/Lum"
+            android:textColor="@color/preto"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/labelLuminosidade"
+            android:textAlignment="textEnd"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="20dp"
+            android:text="Luminosidade"
+            android:textColor="@color/cinza"
+            android:textSize="27sp" />
+
+
+        <ImageView
+            android:id="@+id/lightView"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/lighticon_foreground" />
+    </FrameLayout>
+
+</RelativeLayout>

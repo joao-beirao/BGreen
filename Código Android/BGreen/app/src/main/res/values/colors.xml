@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    //minhas cores
+    <color name="verdeEscuro">  #005015 </color>
+    <color name="verdeClaro">   #77F899 </color>
+    <color name="verde">        #00FF00 </color>
+    <color name="branco">       #FFFFFF </color>
+    <color name="laranjaClaro"> #EAAA74 </color>
+    <color name="azulClaro">    #74ADEA </color>
+    <color name="amareloClaro"> #FBEF7D </color>
+    <color name="preto">        #000000 </color>
+    <color name="cinza">        #222222 </color>
+</resources>

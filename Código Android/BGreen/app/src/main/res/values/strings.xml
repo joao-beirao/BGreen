@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BGreen</string>
+
+    <string name="Temp">00Cº</string>
+    <string name="Hum">1234</string>
+    <string name="Lum">4321</string>
+    <string name="Info">O Projeto BGreen, da autoria do aluno João Beirão no âmbito da “Prova de Aptidão Profissional” consiste numa combinação de Hardware e Software para resolver alguns dos problemas enfrentados pela sociedade atualmente, tais como a sustentabilidade e o consumo de energia. Este projeto é composto por duas partes principais: a aplicação; e uma estufa. Tanto o desenho, construção e programação da aplicação como da caixa são da total autoria do aluno.
+Manual de utilização:
+Para a correta utilização do projeto, é necessário, em primeira instância, que o dispositivo físico esteja corretamente instalado, ligado e conectado. É também necessário que o Bluetooth do dispositivo Android esteja ligado. Caso estas condições estejam reunidas, o dispositivo conectar-se há automaticamente ao telemóvel assim que a aplicação for inicializada.
+A aplicação divide-se em três páginas principais: Informação, onde se encontra atualmente, a página principal, onde pode tanto controlar as diversas funções do dispositivo físico, como monitorizar os dados recebidos; e a página de automação, onde pode configurar o dispositivo para que este faça a sua manutenção automaticamente.
+    </string>
+    <string name="ErroBT"> A aplicação BGreen não funciona corretamente sem que o respectivo dispositivo físico esteja corretamente ligado e instalado.</string>
+</resources>

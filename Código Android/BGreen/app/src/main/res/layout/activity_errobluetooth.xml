@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.andro id.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777777"
+    tools:context=".auto">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="352dp"
+        android:layout_height="454dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="127dp"
+        android:text="@string/ErroBT"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="35sp" />
+
+</RelativeLayout>
