@@ -1,5 +1,7 @@
 # BGreen
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72351540/133004186-5912114f-c801-469f-b540-cb05827a1a04.png" style="width: 400px;margin-left: auto; margin-right: auto;" />
+</p>
 Projeto final do Curso Profissional de 
 Técnico de Informática – Sistemas.
 O projeto tem como objetivo demonstrar todos os conhecimentos obtidos durante os 3 
