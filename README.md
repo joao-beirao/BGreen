@@ -28,8 +28,6 @@ Tudo começou com um pequeno equipamento que encontrei numa loja de produtos
 eletrónicos, que captou a minha atenção nesse mesmo instante. De repente deparei-me 
 com uma criação de plantas dentro de um conceito todo ele eletrónico, e fez todo o 
 sentido. 
-Curso Prof. Técnico de Informática – Sistemas PAP
-João Beirão Página 4 de 57
 Se podemos obter melhores resultados e eficiência ambiental através das novas 
 tecnologias, era esse o meu caminho.
 Seguiram-se algumas pesquisas do que poderia eu fazer dentro daquele modelo, não só 
